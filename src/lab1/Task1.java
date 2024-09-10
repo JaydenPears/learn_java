@@ -13,7 +13,8 @@ public class Task1 {
             sum += arr[i];
         }
         double avg_num = sum / 10.0;
-        System.out.println("Среднее значение массива: " + avg_num);
+        System.out.println("Сумма элементов массива: " + sum);
+        System.out.println("Среднее арифметическое значение элементов массива: " + avg_num);
         in.close();
     }
 }
